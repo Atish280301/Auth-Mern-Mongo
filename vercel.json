@@ -15,8 +15,32 @@
   ],
   "routes": [
     {
+      "src": "/api",
+      "dest": "index.js"
+    },
+    {
       "src": "/api/(.*)",
-      "dest": "/api/index.js"
+      "dest": "index.js"
+    },
+    {
+      "src": "/",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/signup",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/signin",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/public",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/admin",
+      "dest": "dist/index.html"
     },
     {
       "src": "/(.*)",
