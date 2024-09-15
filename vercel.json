@@ -20,7 +20,31 @@
     },
     {
       "src": "/(.*)",
+      "dest": "/dist/$1"
+    },
+    {
+      "src": "/",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/(.*)",
       "dest": "/dist/index.html"
+    },
+    {
+      "src": "/signup",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/signin",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/admin",
+      "dest": "dist/index.html"
+    },
+    {
+      "src": "/public",
+      "dest": "dist/index.html"
     }
   ]
 }
